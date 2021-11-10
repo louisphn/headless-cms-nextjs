@@ -1,5 +1,5 @@
 export const fetchData = () => {
-  return fetch('https://headless-cms-nextjs-graphql.com/graphql', {
+  return fetch('http://headless-cms-nextjs-graphql.com/graphql', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
@@ -24,7 +24,7 @@ export const fetchData = () => {
 };
 
 export const fetchSingleData = (slug: string) => {
-  return fetch('https://headless-cms-nextjs-graphql.com/graphql', {
+  return fetch('http://headless-cms-nextjs-graphql.com/graphql', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
