@@ -19,17 +19,17 @@ const Index: FC<Props> = ({ posts }) => {
         This is a demo website using Wordpress as Headless CMS
       </h1>
       <p>
-        All the
+        All the{' '}
         <a target="__blank" href="https://graphql.org/">
-          GraphQL
-        </a>
+          (GraphQL)
+        </a>{' '}
         data is fetched from Wordpress admin server
       </p>
       <p>
-        This page is built with
+        This page is built with{' '}
         <a target="__blank" href="https://nextjs.org/">
           Nextjs
-        </a>
+        </a>{' '}
         . Please try out by clicking on any of the blog titles below
       </p>
       <p className="italic">
